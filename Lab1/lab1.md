@@ -26,7 +26,7 @@ Your GitHub environment and wireless toolkit are the foundation for every lab, m
 | Repo | Purpose | Link |
 |------|---------|------|
 | Course Reference (public) | Lab instructions, midterm, final, syllabus | https://github.com/acloudsecninja/emu-it-375-course |
-| Student Upload (private) | Your assignment submissions via PR | https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026 |
+| Student Upload (private) | Your assignment submissions via PR | https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026 |
 
 ---
 
@@ -203,21 +203,21 @@ cd emu-it-375-course
 
 #### GitHub Desktop
 1. **File → Clone Repository → URL tab**
-2. Enter: `https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026.git`
+2. Enter: `https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026.git`
 3. Choose a local path and click **Clone**
 
 #### Command Line
 ```bash
-git clone https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026.git
-cd emu-it-375-fall-2026
+git clone https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026.git
+cd emu-it-375-winter-2026
 git remote -v
 ```
 
 Expected output:
 
 ```
-origin  https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026.git (fetch)
-origin  https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026.git (push)
+origin  https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026.git (fetch)
+origin  https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026.git (push)
 ```
 
 **Screenshot 8:** Both cloned directories listed on disk plus the remote information (`git remote -v` output or GitHub Desktop Repository Settings).
@@ -292,7 +292,7 @@ Submit the following to Canvas by the due date:
 - **Git Workflow Guide:** [git-workflow-guide.md](../git-workflow-guide.md)
 - **Course syllabus (source of truth for policies):** distributed via the course Google Shared Drive and Canvas
 - **Course reference repo:** https://github.com/acloudsecninja/emu-it-375-course
-- **Student upload repo:** https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026
+- **Student upload repo:** https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026
 - **Wireshark docs:** https://www.wireshark.org/docs/
 - **Git cheat sheet:** https://education.github.com/git-cheat-sheet-education.pdf
 - Stuck? Post in the EMU IA Slack or email Professor Weber. Do not wait until class.

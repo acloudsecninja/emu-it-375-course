@@ -112,7 +112,7 @@ git config --list
 #### Clone Private Student Upload Repo
 1. Click **File → Clone Repository**
 2. Click **URL** tab
-3. Enter: `https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026.git`
+3. Enter: `https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026.git`
 4. Choose local path
 5. Click **Clone**
 
@@ -128,8 +128,8 @@ ls -la
 #### Clone Private Student Upload Repo
 ```bash
 cd ~
-git clone https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026.git
-cd emu-it-375-fall-2026
+git clone https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026.git
+cd emu-it-375-winter-2026
 git remote -v
 ```
 
@@ -140,8 +140,8 @@ git remote -v
 
 Expected output:
 ```
-origin  https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026.git (fetch)
-origin  https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026.git (push)
+origin  https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026.git (fetch)
+origin  https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026.git (push)
 ```
 
 ---
@@ -544,7 +544,7 @@ git remote set-url origin https://github.com/username/repo.git
 
 #### Command Line
 ```bash
-cd ~/emu-it-375-fall-2026
+cd ~/emu-it-375-winter-2026
 git checkout -b lab1-your-username
 mkdir -p Lab1
 # Create SECURITY.md
@@ -565,7 +565,7 @@ git push origin lab1-your-username
 
 ### Course Resources
 - **Course reference repo:** https://github.com/acloudsecninja/emu-it-375-course
-- **Student upload repo:** https://github.com/acloudsecninja-emu-org/emu-it-375-fall-2026
+- **Student upload repo:** https://github.com/acloudsecninja-emu-org/emu-it-375-winter-2026
 - **Git cheat sheet:** https://education.github.com/git-cheat-sheet-education.pdf
 
 ### Troubleshooting
